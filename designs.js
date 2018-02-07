@@ -1,3 +1,5 @@
+/*This was the page Jeremy Built as a requirement for the course*/
+
 //Elements
 const colorPicker =  document.querySelector('#colorButton');
 const heightBox = document.querySelector('#inputHeight');
@@ -6,7 +8,7 @@ const submitBox = document.querySelector('#submitButton');
 const tableArea=document.querySelector('table');
 
 //Global variables: [Set to defaults]
-let colorSelected = '#000000'; 
+let colorSelected = '#000000';
 let height = 1;
 let width = 1;
 
@@ -35,16 +37,15 @@ function submitPressed(){
 	while (tableArea.firstChild) 
     	tableArea.removeChild(tableArea.firstChild);
 	tableArea.insertAdjacentHTML('afterbegin',makeHTMLTable());
-	event.preventDefault();//Needed to add in to prevent form reseting.
+	event.preventDefault();//Needed to add in to prevent form resetting.
 }
 
 function makeHTMLTable(){
-	//TO DO: Try ammending a string or something
 	let returnString='';
 	for(var i=0;i<height;i++){
 		returnString+='<tr>';
 		for(var j=0;j<width;j++)
-			returnString+='<td></td>';	
+			returnString+='<td></td>';
 		returnString+='</tr>';
 	}
 	return returnString;
@@ -55,5 +56,3 @@ function cellChangeColor(event){
 	if(event.path[0].nodeName == "TD")
 			event.path[0].style.backgroundColor = colorSelected;
 }
-
-
