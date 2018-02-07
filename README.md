@@ -1,9 +1,10 @@
 # Pixel Art Maker Project
 
 ## Instructions
-Run index.html on browser
+Run index.html in browser
 
 ##About
-The code written by Jeremy (me) was the javascript file. Other code was provided for this project by Udacity.
+The javascript file was written by myself. 
+The CSS and HTML code was provided by Udacity.
 
 
