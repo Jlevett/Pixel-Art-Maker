@@ -1,16 +1,9 @@
 # Pixel Art Maker Project
 
-## Table of Contents
-
-* [Instructions](#instructions)
-* [Contributing](#contributing)
-
 ## Instructions
+Run index.html browser
 
-To get started, open `designs.js` and start building out the app's functionality.
+##About
+The code written by Jeremy (me) was the javascript file. Other code was provided for this project by Udacity.
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
 
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
